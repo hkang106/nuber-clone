@@ -5,7 +5,7 @@ const PORT: number | any = process.env.PORT || 4000;
 const PLAYGROUND_ENDPOINT: any = '/playground';
 const GRAPHQL_ENDPOINT: any = '/graphql';
 
-const appOptions: any = {
+const appOptions: Options = {
 	port: PORT,
 	playground: PLAYGROUND_ENDPOINT,
 	endpoint: GRAPHQL_ENDPOINT
