@@ -1,6 +1,6 @@
 const resolvers = {
 	Query: {
-		sayBye: () => 'Hey Hello How are you!'
+		sayBye: () => 'Hey hello how are ya'
 	}
 };
 
