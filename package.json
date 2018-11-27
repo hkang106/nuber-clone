@@ -19,7 +19,6 @@
     "dev": "cd src && nodemon --exec ts-node index.ts -e ts,graphql",
     "pretypes": "gql-merge --out-file ./src/schema.graphql ./src/api/**/*.graphql",
     "types": "graphql-to-typescript ./src/schema.graphql ./src/types/graph.d.ts"
-
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",
@@ -28,6 +27,8 @@
     "graphql-yoga": "^1.14.10",
     "helmet": "^3.12.1",
     "merge-graphql-schemas": "^1.5.2",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "pg": "^7.6.1",
+    "typeorm": "^0.2.9"
   }
 }
